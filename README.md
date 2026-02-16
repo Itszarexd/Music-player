@@ -31,6 +31,11 @@ python main.py
 
 Running `main.py` should start the program and play the bundled `musica.mp3` file. If the program expects command-line arguments, consult `main.py` or add usage examples here.
 
+
+
+<img width="502" height="537" alt="image" src="https://github.com/user-attachments/assets/93d0362f-cebd-4c93-bb72-ee978694ccd1" />
+
+
 ## Files in this repo
 
 - `main.py` — program entry point.
