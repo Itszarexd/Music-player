@@ -1,8 +1,6 @@
 # Music Player
 
-A small local music player project written in Python.
-
-This repository contains a minimal program to play a local MP3 file and manage a simple playback checkpoint. It is intended as a teaching or demo project for a fault-tolerant computing / music player exercise.
+This repository contains a program to play a local MP3 file and manage a simple playback checkpoint. It is intended as a teaching or demo project for a fault-tolerant computing / music player exercise.
 
 ## Features
 
@@ -10,13 +8,6 @@ This repository contains a minimal program to play a local MP3 file and manage a
 - Show or use a cover image (`portada.jpg`).
 - Store a checkpoint (`checkpoint_player.pkl`) to remember playback state (seek position, playlist index, or other small state data).
 - Single-file entry point: `main.py`.
-
-## Assumptions
-
-- The project uses plain Python (no explicit dependency file provided). The code may rely on standard libraries or lightweight audio libraries (for example, `pygame`, `playsound`, or `pydub`). If dependencies are required, they should be listed in `requirements.txt`.
-- `main.py` is the program entry point and will attempt to load `musica.mp3` and `portada.jpg` from the repository root.
-
-If any of these assumptions are wrong, update this README or add a `requirements.txt` with the exact dependencies.
 
 ## Usage
 
@@ -44,13 +35,3 @@ Running `main.py` should start the program and play the bundled `musica.mp3` fil
 - `checkpoint_player.pkl` — serialized playback state used by the player (if present).
 - `README.md` — this file.
 
-## Next steps / Recommendations
-
-- Add a `requirements.txt` listing runtime dependencies.
-- Add a `.gitignore` to exclude `__pycache__/`, virtualenv directories, and large media files if you prefer not to store them in Git.
-- Run `git init` and push to a remote GitHub repository (e.g., `https://github.com/Itszarexd/Music-player.git`).
-- Consider adding a short CONTRIBUTING guide or usage examples in `README.md` showing CLI options or a GUI description if applicable.
-
-## License
-
-Specify a license (for example, MIT) in a `LICENSE` file if you intend to reuse or publish this code.
