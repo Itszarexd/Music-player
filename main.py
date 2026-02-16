@@ -1,4 +1,4 @@
-import tkinter as tk
+fimport tkinter as tk
 from PIL import Image, ImageTk
 import pygame
 import pickle
@@ -12,7 +12,7 @@ class Reproductor:
 
         # Ventana principal
         self.root = tk.Tk()
-        self.root.title("Reproductor estilo Spotify")
+        self.root.title("Music player")
         self.root.geometry("400x400")
         self.root.configure(bg="black")
 
@@ -55,7 +55,6 @@ class Reproductor:
         )
         self.tiempo_label.pack(pady=5, fill="x")
 
-        # Botones estilo Spotify
         tk.Button(
             self.root, text="Play", width=12, command=self.play, 
             fg="white", bg="#1DB954", activebackground="#1ED760", 
